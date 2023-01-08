@@ -1,0 +1,36 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:10vh;
+    width:100%;
+    padding: 0 3rem;
+    background-color: rgb(4, 4, 50);
+    opacity: 0.5;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+}
+nav h1 {
+    color: white;
+}
+.menu a{
+    color: white;
+}
+.logout button{
+    border: 2px solid var(--primary);
+    cursor: pointer;
+    border-radius: 5px;
+    /* background-color: transparent; */
+    background-color: whitesmoke;
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.logout span{
+color: bisque;
+margin-right: 1.5rem;
+}

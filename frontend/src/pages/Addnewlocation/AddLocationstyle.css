@@ -1,0 +1,39 @@
+.totalForm{
+    display:flex;
+    flex-direction: column;
+    width:100%;height: 85vh;
+    align-items:center;gap:40px;
+    justify-content: center;
+
+}
+h1{
+    text-align: center;
+}
+.addLocation{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    align-items:flex-start;
+    justify-content: center;
+}
+.addLocation input{
+    border-radius:5px;
+    width:440px;
+    height:40px;
+}
+.Location{
+    display: flex;
+    gap:30px;
+}
+.Location input{
+    border-radius:5px;
+    width:200px;
+    height:40px;
+}
+
+.anchor{
+    padding:7px 15px;color: white;
+    background-color: rgb(37, 37, 107);
+    border: none;
+    border-radius: 5px;
+}
